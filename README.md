@@ -23,3 +23,9 @@ Clone this repo and run:
 ```bash
 npm install
 npm run cy:open
+
+cypress/
+├── e2e/              # Test cases
+├── fixtures/         # Static test data
+├── support/          # Commands and custom logic
+
