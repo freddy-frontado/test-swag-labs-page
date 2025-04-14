@@ -1,0 +1,11 @@
+[
+    {
+        "name": "TC01-Should show Thank you for your order!",
+        "products": ["Test.allTheThings() T-Shirt (Red)"],
+        "expected_quantity": "1",
+        "first_name": "Ling",
+        "last_name": "Wu",
+        "postal_code": "AQ-2345",
+        "expected_text": "Thank you for your order!"
+    }
+]

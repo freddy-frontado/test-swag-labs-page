@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Cache
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress/logs/
+
+# .visual
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
+
+# Environment variables
+.env
+.env.local
+
+# Cache Cypress
+.cache/

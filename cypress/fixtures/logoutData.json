@@ -1,0 +1,7 @@
+[
+    {
+        "name": "TC01-Should logout to inventory page",
+        "path": "/inventory.html",
+        "expected_title": "Swag Labs"
+    }
+]

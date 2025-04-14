@@ -1,0 +1,20 @@
+{
+  "name": "swag-labs",
+  "version": "1.0.0",
+  "description": "e2e framework cypress-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cy:open": "cypress open"
+  },
+  "keywords": [
+    "e2e",
+    "framework",
+    "cypress"
+  ],
+  "author": "freddy frontado",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.3.0"
+  }
+}

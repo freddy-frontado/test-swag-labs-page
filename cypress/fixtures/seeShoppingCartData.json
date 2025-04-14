@@ -1,0 +1,8 @@
+[
+    {
+        "name": "TC01-Should access the Shopping Cart",
+        "products": ["Test.allTheThings() T-Shirt (Red)"],
+        "expected_quantity": "1",
+        "path": "/inventory.html"
+    }
+]

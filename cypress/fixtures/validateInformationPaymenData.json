@@ -1,0 +1,13 @@
+[
+    {
+        "name": "TC01-Should match your payment details",
+        "products": ["Test.allTheThings() T-Shirt (Red)", "Sauce Labs Backpack", "Sauce Labs Fleece Jacket"],
+        "expected_quantity": "3",
+        "first_name": "Ling",
+        "last_name": "Wu",
+        "postal_code": "AQ-2345",
+        "tax_percentage": 0.0800640512409928,
+        "card_number": "SauceCard #31337",
+        "shipping_information": "Free Pony Express Delivery!"
+    }
+]

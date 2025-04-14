@@ -1,0 +1,12 @@
+[
+    {
+        "name": "TC01-Should add the product to cart (PLP)",
+        "products": ["Test.allTheThings() T-Shirt (Red)", "Sauce Labs Bike Light", "Sauce Labs Backpack"],
+        "expected_quantity": "3"
+    },
+    {
+        "name": "TC02-Should add the product to cart (PDP)",
+        "products": ["Test.allTheThings() T-Shirt (Red)"],
+        "expected_quantity": "1"
+    }
+]

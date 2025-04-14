@@ -1,0 +1,20 @@
+[
+    {
+        "name": "TC01-Should remove the product from PLP",
+        "your_cart": false,
+        "products": ["Sauce Labs Onesie", "Sauce Labs Bolt T-Shirt"],
+        "expected_quantity": ""
+    },
+    {
+        "name": "TC02-Should remove the product from PDP",
+        "your_cart": false,
+        "products": ["Sauce Labs Onesie"],
+        "expected_quantity": ""
+    },
+    {
+        "name": "TC03-Should remove the product from Your Cart",
+        "your_cart": true,
+        "products": ["Sauce Labs Onesie", "Sauce Labs Bolt T-Shirt"],
+        "expected_quantity": ""
+    }
+]

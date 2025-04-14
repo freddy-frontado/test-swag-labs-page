@@ -1,0 +1,42 @@
+[
+    {
+        "name": "TC01-Should show the details of the purchase",
+        "products": ["Test.allTheThings() T-Shirt (Red)"],
+        "first_name": "Ling",
+        "last_name": "Wu",
+        "postal_code": "AQ-2345",
+        "expected_text": "Checkout: Overview"
+    },
+    {
+        "name": "TC02-Should show message: First Name is required",
+        "products": ["Test.allTheThings() T-Shirt (Red)"],
+        "first_name": "",
+        "last_name": "Wu",
+        "postal_code": "AQ-2345",
+        "expected_text": "Error: First Name is required"
+    },
+    {
+        "name": "TC03-Should show message: Last Name is required",
+        "products": ["Test.allTheThings() T-Shirt (Red)"],
+        "first_name": "Ling",
+        "last_name": "",
+        "postal_code": "AQ-2345",
+        "expected_text": "Error: Last Name is required"
+    },
+    {
+        "name": "TC04-Should show message: Postal Code is required",
+        "products": ["Test.allTheThings() T-Shirt (Red)"],
+        "first_name": "Ling",
+        "last_name": "Wu",
+        "postal_code": "",
+        "expected_text": "Error: Postal Code is required"
+    },
+    {
+        "name": "TC05-Should show message: Postal Code is required",
+        "products": ["Test.allTheThings() T-Shirt (Red)"],
+        "first_name": "",
+        "last_name": "",
+        "postal_code": "",
+        "expected_text": "Error: First Name is required"
+    }
+]

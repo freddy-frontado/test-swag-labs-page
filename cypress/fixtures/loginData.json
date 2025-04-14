@@ -1,0 +1,38 @@
+[
+    {
+        "name": "TC01-Should login to inventory page",
+        "user_name": "standard_user",
+        "password": "secret_sauce",
+        "expected": "Products"
+    },
+    {
+        "name": "TC02-Should display locked out message",
+        "user_name": "locked_out_user",
+        "password": "secret_sauce",
+        "expected": "Epic sadface: Sorry, this user has been locked out."
+    },
+    {
+        "name": "TC03-Should display incorrect password message",
+        "user_name": "standard_user",
+        "password": "password_dummy",
+        "expected": "Epic sadface: Username and password do not match any user in this service"
+    },
+    {
+        "name": "TC04-Should display any user in this service",
+        "user_name": "user_dummy",
+        "password": "secret_sauce",
+        "expected": "Epic sadface: Username and password do not match any user in this service"
+    },
+    {
+        "name": "TC05-Should display any user in this service",
+        "user_name": "",
+        "password": "",
+        "expected": "Epic sadface: Username is required"
+    },
+    {
+        "name": "TC06-Should display any user in this service",
+        "user_name": "standard_user",
+        "password": "",
+        "expected": "Epic sadface: Password is required"
+    }
+]

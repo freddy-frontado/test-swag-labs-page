@@ -1,0 +1,12 @@
+[
+    {
+        "name": "TC01-Should order from lowest to highest price",
+        "opction_value": "lohi",
+        "order": "Ascending"
+    },
+    {
+        "name": "TC02-Should order from highest to lowest price",
+        "opction_value": "hilo",
+        "order": "Descending"
+    }
+]
