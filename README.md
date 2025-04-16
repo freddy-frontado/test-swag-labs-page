@@ -23,9 +23,17 @@ Clone this repo and run:
 ```bash
 npm install
 npm run cy:open
+```
 
+## 🧰 Folder Structure
+
+```bash
 cypress/
 ├── e2e/              # Test cases
 ├── fixtures/         # Static test data
 ├── support/          # Commands and custom logic
+```
 
+## 🙌 Contributions
+
+This project is open for feedback and suggestions. Feel free to fork it or reach out!
